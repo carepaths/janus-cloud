@@ -1302,7 +1302,7 @@ class VideoRoomPublisher(object):
 class VideoRoom(object):
 
     def __init__(self, room_id, description='', secret='', pin='',
-                 is_private=False, require_pvtid=False, publishers=3, bitrate=0,
+                 is_private=False, require_pvtid=False, publishers=0, bitrate=0,
                  bitrate_cap=False, fir_freq=0, audiocodec=['opus'], videocodec=['vp8'], opus_fec=False,
                  video_svc=False, audiolevel_ext=True, audiolevel_event=False, audio_active_packets=100,
                  audio_level_average=25, videoorient_ext=True, playoutdelay_ext=True,
